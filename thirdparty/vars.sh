@@ -213,9 +213,10 @@ THRIFT_VERSION=0.11.0
 THRIFT_NAME=thrift-$THRIFT_VERSION
 THRIFT_SOURCE=$TP_SOURCE_DIR/$THRIFT_NAME
 
-BISON_VERSION=3.0.4
+BISON_VERSION=3.0.5
 BISON_NAME=bison-$BISON_VERSION
 BISON_SOURCE=$TP_SOURCE_DIR/$BISON_NAME
+BISON_URL="https://ftp.gnu.org/gnu/bison"
 
 # TODO(dan): bump to a release version once HIVE-17747 and HIVE-16886/HIVE-18526
 # are published. The SHA below is the current head of branch-2.
