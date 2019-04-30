@@ -327,7 +327,8 @@ fetch_and_patch \
   "patch -p1 < $TP_DIR/patches/llvm-iwyu-nocurses.patch" \
   "patch -p1 < $TP_DIR/patches/llvm-iwyu-include-picker.patch" \
   "patch -d tools/clang/tools/include-what-you-use -p1 < $TP_DIR/patches/llvm-iwyu-llvm-6-compat.patch" \
-  "patch -d projects/compiler-rt -p1 < $TP_DIR/patches/llvm-tsan-disable-trace-switching-after-multithreaded-for.patch"
+  "patch -d projects/compiler-rt -p1 < $TP_DIR/patches/llvm-tsan-disable-trace-switching-after-multithreaded-for.patch" \
+  "patch -d projects/compiler-rt -p1 < $TP_DIR/patches/llvm-fix-ustat.patch"
 
 LZ4_PATCHLEVEL=1
 fetch_and_patch \
