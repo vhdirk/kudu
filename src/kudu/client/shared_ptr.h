@@ -37,7 +37,7 @@
 // order to ensure the _LIBCPP_VERSION macro is defined appropriately.
 #include <string>
 
-#if defined(_LIBCPP_VERSION)
+#if __cplusplus >= 201103L
 
 #include <memory> // IWYU pragma: export
 
